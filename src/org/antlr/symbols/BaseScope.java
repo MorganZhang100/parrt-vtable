@@ -131,7 +131,7 @@ public abstract class BaseScope implements Scope {
 	}
 
 	public String asQualifierString(String separator) {
-		return Utils.asScopeStackString(this, separator);
+		return Utils.asQualifierString(this, separator);
 	}
 
 	public String toTestString() {
