@@ -9,7 +9,7 @@ import org.antlr.symbols.VariableSymbol;
 
 public class ComputeTypes extends SetScopes {
 	public static final Type JINT_TYPE = new JPrimitiveType("int");
-	public static final Type JFLOAT_TYPE = new JPrimitiveType("int");
+	public static final Type JFLOAT_TYPE = new JPrimitiveType("float");
 	public static final Type JSTRING_TYPE = new JPrimitiveType("string");
 	public static final Type JVOID_TYPE = new JPrimitiveType("void");
 
